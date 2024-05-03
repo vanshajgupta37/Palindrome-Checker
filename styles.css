@@ -1,0 +1,78 @@
+body {
+    background-color: #f8f9fa;
+  }
+  #home{
+     height: 100vh;
+     background-image: url(assets/bg-home.png);
+     background-size: cover;
+
+  }
+  .display-3{
+    margin-top: 130px;
+  }
+  .lead{
+      margin-top: 50px;
+      font-size: 30px;
+  }
+  .custom-padding{
+      padding-top: 200px;
+  }
+  .jumbotron {
+    background-color: #343a40;
+    color: #fff;
+    padding: 100px 30px;
+    border-radius: 0;
+    text-align: center;
+  }
+  #palindromePage{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #273539, #0e3971, #15677d,#103b74, #273539);
+    
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  #button-click{
+    height: 34.8px;
+  }
+
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  .text-center{
+    font-family: 'Cambria';
+    color: #0069d9;
+    font-size: 18px;
+  }
+  .card {
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(188, 216, 242);
+  }
+  .input-group{
+    background-color: rgb(188, 216, 242);
+  }
+  .animated-bg {
+    background: linear-gradient(45deg, #34649b, #2ca2e1, #7b569b, #36ccd3, #4e35cb);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+  }
+  .btn{
+      color: #1e242a;
+  }
+  @keyframes gradientAnimation {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
+  .fun-fact {
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
